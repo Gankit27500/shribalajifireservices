@@ -162,7 +162,7 @@ export default function ProjectDetailPage({ params }: PageProps) {
                 <span className="font-semibold text-white">{project.location}</span>
               </div>
               <div>
-                <span className="text-gray-500 block">NOC Clearance Status</span>
+                <span className="text-gray-500 block">Fire Safety Clearance Status</span>
                 <span className="text-emerald-400 font-bold">CLEAR / APPROVED</span>
               </div>
             </div>
@@ -175,7 +175,7 @@ export default function ProjectDetailPage({ params }: PageProps) {
               <span>Certified Installation</span>
             </div>
             <p className="text-[11px] text-gray-400 leading-relaxed">
-              We certify that our project mockups represent safety grids executing exactly under local UP Fire NOC guidelines.
+              We certify that our project mockups represent safety grids executing exactly under local UP fire safety guidelines.
             </p>
           </div>
 

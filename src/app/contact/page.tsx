@@ -85,8 +85,8 @@ export default function ContactPage() {
                   <a href="tel:+917007447595" className="hover:underline text-white font-semibold">
                     +91 70074 47595 (Primary / WhatsApp)
                   </a>
-                  <a href="tel:+919455472453" className="hover:underline text-primary font-bold">
-                    +91 94554 72453 (24/7 Emergency Line)
+                  <a href="tel:+917007447595" className="hover:underline text-primary font-bold">
+                    +91 70074 47595 (24/7 Emergency Line)
                   </a>
                 </p>
               </div>

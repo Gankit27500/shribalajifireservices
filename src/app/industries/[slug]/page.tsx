@@ -216,10 +216,10 @@ export default function IndustryDetailPage({ params }: PageProps) {
           <div className="bg-charcoal-950 border border-charcoal-850 rounded-xl p-5 space-y-3">
             <div className="flex items-center gap-1.5 text-xs text-accent font-bold uppercase tracking-wider">
               <Award className="w-4 h-4 text-primary" />
-              <span>CFO NOC Compliance</span>
+              <span>CFO Safety Compliance</span>
             </div>
             <p className="text-[11px] text-gray-400 leading-relaxed">
-              We help Varanasi businesses structure their safety systems to easily obtain and renew Fire NOC permits under UP fire norms.
+              We help Varanasi businesses structure their safety systems to easily obtain and renew Fire Safety clearances under UP fire norms.
             </p>
           </div>
 

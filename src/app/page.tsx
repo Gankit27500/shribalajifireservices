@@ -59,9 +59,9 @@ export default function Home() {
 
   const trustStats = [
     { value: "23+", label: "Years Experience", desc: "Est. 2001 (Pankaj Srivastava)" },
-    { value: "150+", label: "Projects Completed", desc: "Lemon Tree & Local Hotels" },
-    { value: "100+", label: "Happy Clients", desc: "Corporate & Hospitality" },
-    { value: "24/7", label: "Emergency Support", desc: "9455472453" }
+    { value: "500+", label: "Projects Completed", desc: "Lemon Tree & Local Hotels" },
+    { value: "350+", label: "Happy Clients", desc: "Corporate & Hospitality" },
+    { value: "24/7", label: "Emergency Support", desc: "7007447595" }
   ];
 
   const whyChooseUs = [
@@ -73,9 +73,9 @@ export default function Home() {
   ];
 
   const localFaqs = [
-    { q: "What fire safety compliance services do you provide in Varanasi?", a: "We provide end-to-end services: fire load calculations, evacuation map designs, fire safety audits, and full installations of hydrants, alarms, and sprinklers required by the Varanasi Chief Fire Officer (CFO) for obtaining and renewing Fire NOCs." },
+    { q: "What fire safety compliance services do you provide in Varanasi?", a: "We provide end-to-end services: fire load calculations, evacuation map designs, fire safety audits, and full installations of hydrants, alarms, and sprinklers required by the Varanasi Chief Fire Officer (CFO) for complete fire safety compliance." },
     { q: "Are your fire extinguishers certified and refillable?", a: "Yes, all extinguishers we supply are ISI-marked and standard-compliant. We operate a dedicated, fully-equipped refilling and hydraulic pressure testing facility in Varanasi with standard turnaround times of 24-48 hours." },
-    { q: "Do you offer emergency assistance for leakages or alarm issues?", a: "Yes, our priority emergency team is available 24/7 at +91-9455472453. We quickly dispatch technicians to resolve pipe bursts, cylinder leaks, pressure drops, or fire alarm panel loop faults inside Varanasi." },
+    { q: "Do you offer emergency assistance for leakages or alarm issues?", a: "Yes, our priority emergency team is available 24/7 at +91-7007447595. We quickly dispatch technicians to resolve pipe bursts, cylinder leaks, pressure drops, or fire alarm panel loop faults inside Varanasi." },
     { q: "Can we sign a maintenance contract (AMC) for our hotel or hospital?", a: "Absolutely. We offer customized comprehensive and non-comprehensive Annual Maintenance Contracts (AMC) that cover quarterly inspections, testing logs, and compliance stamps for hospitals, hotels, and apartments." }
   ];
 
@@ -96,19 +96,19 @@ export default function Home() {
             {/* Tagline */}
             <div className="inline-flex items-center gap-2 bg-primary/15 border border-primary/30 px-3 py-1.5 rounded-full text-xs font-semibold text-primary uppercase tracking-wider">
               <Shield className="w-3.5 h-3.5 fill-primary/15" />
-              <span>बनारस के अपने फायर सेफ्टी एक्सपर्ट्स (Varanasi No. 1 Fire NOC Partner)</span>
+              <span>बनारस के अपने फायर सेफ्टी एक्सपर्ट्स (Varanasi No. 1 Fire Safety Partner)</span>
             </div>
             
             {/* H1 Headline */}
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white tracking-tight leading-tight">
               बनारस की सबसे भरोसेमंद <br className="hidden sm:inline" />
               <span className="text-primary text-glow-red">फायर सेफ्टी</span> सर्विस <br />
-              <span className="text-accent">FIRE NOC & REFILLING</span>
+              <span className="text-accent">FIRE SAFETY & REFILLING</span>
             </h1>
             
             {/* Subheading */}
             <p className="text-base sm:text-lg text-gray-300 max-w-2xl mx-auto lg:mx-0 leading-relaxed">
-              Varanasi (बनारस) के स्कूलों, होटलों, अस्पतालों और फैक्ट्रियों के लिए ISI फायर सिलेंडर (Extinguishers) सप्लाई, 24-घंटे एक्सप्रेस रीफिलिंग, फायर पाइप-पंप फिटिंग, AMC और फायर एनओसी (Fire NOC) सर्टिफिकेट की पूरी सर्विस।
+              Varanasi (बनारस) के स्कूलों, होटलों, अस्पतालों और फैक्ट्रियों के लिए ISI फायर सिलेंडर (Extinguishers) सप्लाई, 24-घंटे एक्सप्रेस रीफिलिंग, फायर पाइप-पंप फिटिंग और AMC की पूरी सर्विस।
             </p>
             
             {/* Action Buttons */}
@@ -120,7 +120,7 @@ export default function Home() {
                 मुफ़्त सलाह लें (Get Free Quote)
               </Link>
               <a
-                href="tel:+919455472453"
+                href="tel:+917007447595"
                 className="w-full sm:w-auto flex items-center justify-center gap-2 bg-charcoal-900/90 border border-charcoal-800 hover:border-primary px-8 py-3 rounded-lg text-white font-bold text-sm transition-all duration-200 transform hover:-translate-y-0.5 text-center"
               >
                 <Phone className="w-4 h-4 text-primary animate-pulse fill-primary" />
@@ -267,7 +267,7 @@ export default function Home() {
             <div className="bg-charcoal-950 p-4 rounded-xl border border-charcoal-800 space-y-2">
               <span className="text-xs text-accent font-bold uppercase tracking-wider block">Compliance Standard</span>
               <p className="text-[11px] text-gray-400">
-                All systems conform to **National Building Code (NBC) Part 4**, **Bureau of Indian Standards (BIS)**, and local UP Fire Service NOC requirements.
+                All systems conform to **National Building Code (NBC) Part 4**, **Bureau of Indian Standards (BIS)**, and local UP Fire Service safety regulations.
               </p>
             </div>
           </div>
@@ -421,7 +421,7 @@ export default function Home() {
                   <div>
                     <h4 className="font-bold text-xs text-white uppercase tracking-wider">Rapid Response Helpline</h4>
                     <p className="text-xs text-gray-400 mt-1">
-                      Dedicated mobile responder desk matching urgent local installation or NOC compliance checks.
+                      Dedicated mobile responder desk matching urgent local installation or fire safety compliance checks.
                     </p>
                   </div>
                 </div>
@@ -578,7 +578,7 @@ export default function Home() {
               ))}
             </div>
             <p className="text-xs text-gray-300 italic leading-relaxed">
-              "Managing a high-density shopping mall like JHV Mall requires flawless fire hydrants and backup pumps. Shri Balaji Fire handles our annual maintenance contract (AMC). Their quarterly testing reports are meticulous, which makes our Fire NOC renewals with the local department extremely smooth."
+              "Managing a high-density shopping mall like JHV Mall requires flawless fire hydrants and backup pumps. Shri Balaji Fire handles our annual maintenance contract (AMC). Their quarterly testing reports are meticulous, which makes our fire safety compliance with the local department extremely smooth."
             </p>
             <div className="pt-4 border-t border-charcoal-850 flex items-center gap-3">
               <div className="w-10 h-10 rounded-full bg-primary/20 flex items-center justify-center font-bold text-primary">
@@ -654,7 +654,7 @@ export default function Home() {
         
         <div className="relative max-w-4xl mx-auto space-y-6 z-10">
           <h2 className="text-2xl sm:text-4xl font-extrabold tracking-tight">
-            NEED IMMEDIATE FIRE SAFETY OR NOC COMPLIANCE SUPPORT?
+            NEED IMMEDIATE FIRE SAFETY OR COMPLIANCE SUPPORT?
           </h2>
           <p className="text-xs sm:text-sm text-gray-200 max-w-xl mx-auto">
             Get a free code-compliance site inspection and quotation. Our team is available for emergency pipeline, panel, or cylinder servicing 24/7 across Varanasi.
@@ -668,11 +668,11 @@ export default function Home() {
               Request Quote
             </Link>
             <a
-              href="tel:+919455472453"
+              href="tel:+917007447595"
               className="w-full sm:w-auto flex items-center justify-center gap-2 bg-charcoal-950/80 hover:bg-charcoal-950 px-8 py-3 rounded-lg text-white font-bold text-xs uppercase tracking-wider transition-colors border border-white/10"
             >
               <Phone className="w-4 h-4 text-primary fill-primary animate-pulse" />
-              <span>Call +91 94554 72453</span>
+              <span>Call +91 70074 47595</span>
             </a>
           </div>
         </div>
@@ -783,7 +783,7 @@ export default function Home() {
                             <>
                               <li className="flex items-start gap-2 text-xs text-gray-300">
                                 <CheckCircle className="w-4 h-4 text-primary shrink-0 mt-0.5" />
-                                <span><strong>Emergency Hotline</strong>: <strong>+91-9455472453</strong> (Direct Dial)</span>
+                                <span><strong>Emergency Hotline</strong>: <strong>+91-7007447595</strong> (Direct Dial)</span>
                               </li>
                               <li className="flex items-start gap-2 text-xs text-gray-300">
                                 <CheckCircle className="w-4 h-4 text-primary shrink-0 mt-0.5" />
@@ -803,7 +803,7 @@ export default function Home() {
                       {idx === 3 ? (
                         <div className="flex gap-3">
                           <a 
-                            href="tel:+919455472453"
+                            href="tel:+917007447595"
                             className="flex-1 bg-primary hover:bg-primary-hover text-white text-xs font-bold py-2.5 rounded-lg text-center transition-colors shadow-lg"
                           >
                             Call Helpline

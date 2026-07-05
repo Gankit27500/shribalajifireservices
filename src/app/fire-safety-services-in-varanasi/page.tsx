@@ -56,7 +56,7 @@ export default function VaranasiLandingPage() {
               Book Free Site Inspection
             </Link>
             <a
-              href="tel:+919455472453"
+              href="tel:+917007447595"
               className="w-full sm:w-auto flex items-center justify-center gap-2 bg-charcoal-900 border border-charcoal-800 hover:border-primary px-8 py-3 rounded-lg text-white font-bold text-xs uppercase tracking-wider transition-colors"
             >
               <Phone className="w-4 h-4 text-primary fill-primary animate-pulse" />
@@ -66,16 +66,16 @@ export default function VaranasiLandingPage() {
         </div>
       </section>
 
-      {/* 2. Varanasi Local CFO NOC Guidelines */}
+      {/* 2. Varanasi Local CFO Safety Guidelines */}
       <section className="py-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto w-full grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
         <div className="lg:col-span-7 space-y-6">
           <h2 className="text-2xl sm:text-3xl font-bold text-white tracking-tight">
-            Varanasi Fire NOC Compliance Guidelines
+            Varanasi Fire Safety Compliance Guidelines
           </h2>
           <div className="h-1 w-16 bg-primary rounded" />
           
           <p className="text-sm leading-relaxed text-gray-300">
-            For businesses, hotels, and schools in Varanasi, obtaining a Fire No Objection Certificate (NOC) from the Chief Fire Officer (CFO) is a mandatory safety requirement under UP Fire Safety Acts. The Varanasi Development Authority (VDA) demands verified safety blueprint layouts before issuing completion clearances.
+            For businesses, hotels, and schools in Varanasi, obtaining Fire Safety Clearance from the Chief Fire Officer (CFO) is a mandatory safety requirement under UP Fire Safety Acts. The Varanasi Development Authority (VDA) demands verified safety blueprint layouts before issuing completion clearances.
           </p>
           <p className="text-xs leading-relaxed text-gray-400">
             We assist developers, builders, and administrators through this process. We inspect your building, calculate the fire load density, install NBC-compliant equipment (extinguishers, hydrants, sprinkler loops, fire doors), compile pressure logs, and coordinate the physical site check with the local fire station officers.
@@ -219,11 +219,11 @@ export default function VaranasiLandingPage() {
             Submit Quote Form
           </Link>
           <a
-            href="tel:+919455472453"
+            href="tel:+917007447595"
             className="w-full sm:w-auto flex items-center justify-center gap-2 bg-charcoal-900 border border-charcoal-800 hover:border-primary px-8 py-3 rounded-lg text-white font-bold text-xs uppercase tracking-wider transition-colors"
           >
             <Phone className="w-4 h-4 text-primary fill-primary" />
-            <span>Call +91 94554 72453</span>
+            <span>Call +91 70074 47595</span>
           </a>
         </div>
       </section>

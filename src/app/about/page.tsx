@@ -42,7 +42,7 @@ export default function AboutPage() {
             Shri Balaji Fire Security Services is a Varanasi-based complete fire protection and safety solutions provider. We deliver end-to-end services across the lifecycle of active firefighting systems: **supply, installation, pressure testing, loop commissioning, refilling, AMC, and safety audits**.
           </p>
           <p className="text-xs leading-relaxed text-gray-400">
-            Founded with a vision to make commercial and public spaces fire-safe and compliant, we serve developers, architects, hotels, factories, and residential societies. Our systems strictly conform to the National Building Code (NBC Part 4), Bureau of Indian Standards (IS codes), and local fire department NOC guidelines. We bridge the gap between complex regulatory mandates and cost-effective on-site safety installations.
+            Founded with a vision to make commercial and public spaces fire-safe and compliant, we serve developers, architects, hotels, factories, and residential societies. Our systems strictly conform to the National Building Code (NBC Part 4), Bureau of Indian Standards (IS codes), and local fire department safety guidelines. We bridge the gap between complex regulatory mandates and cost-effective on-site safety installations.
           </p>
           
           <div className="p-4 bg-charcoal-900 rounded-xl border border-charcoal-800 space-y-2">

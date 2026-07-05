@@ -94,7 +94,7 @@ export default function ServicesHubPage() {
           </h1>
           <div className="h-1 w-20 bg-primary mx-auto rounded" />
           <p className="text-xs sm:text-sm text-gray-400 max-w-xl mx-auto leading-relaxed">
-            From industrial hydrant mains and wet sprinkler piping grids to emergency refilling and Fire NOC consultation.
+            From industrial hydrant mains and wet sprinkler piping grids to emergency refilling and fire safety consultation.
           </p>
         </div>
       </section>

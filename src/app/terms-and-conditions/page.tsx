@@ -41,7 +41,7 @@ export default function TermsAndConditions() {
           3. Compliance Responsibility
         </h2>
         <p>
-          While we design and install systems strictly in compliance with National Building Code (NBC Part 4) and state regulations, obtaining final local fire department clearances remains a joint responsibility. Shri Balaji Fire Security Services is not liable for structural building deficiencies that prevent NOC approvals.
+          While we design and install systems strictly in compliance with National Building Code (NBC Part 4) and state regulations, obtaining final local fire department clearances remains a joint responsibility. Shri Balaji Fire Security Services is not liable for structural building deficiencies that prevent final fire safety clearances.
         </p>
 
         <h2 className="text-lg font-bold text-white uppercase tracking-wider pt-2">

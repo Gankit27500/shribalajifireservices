@@ -23,7 +23,7 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Fire Safety Services in Varanasi | Shri Balaji Fire Security Services",
   description: "Varanasi's trusted fire safety partner. Supply, refilling, AMC, installation of fire extinguishers, alarms, sprinklers & suppression systems. 24/7 support.",
-  keywords: "fire safety services Varanasi, fire protection company Varanasi, fire extinguisher refilling Sigra, fire alarm installation, fire NOC consultant Varanasi, Shri Balaji Fire Security Services",
+  keywords: "fire safety services Varanasi, fire protection company Varanasi, fire extinguisher refilling Sigra, fire alarm installation, fire safety consultant Varanasi, Shri Balaji Fire Security Services",
   metadataBase: new URL("https://shribalajifiresafety.com"), // placeholder domain
   alternates: {
     canonical: "/",

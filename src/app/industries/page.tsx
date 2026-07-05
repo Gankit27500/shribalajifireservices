@@ -126,7 +126,7 @@ export default function IndustriesHubPage() {
               href="/contact"
               className="bg-primary hover:bg-primary-hover text-white text-xs font-bold px-6 py-2.5 rounded-lg transition-colors shadow-lg"
             >
-              Consult Varanasi CFO NOC Partner
+              Consult Varanasi CFO Safety Partner
             </Link>
           </div>
         </div>

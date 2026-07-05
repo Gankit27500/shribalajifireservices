@@ -299,11 +299,11 @@ export const services: Service[] = [
     imageUrl: "/images/hero-bg.png",
     overview: [
       "An unmaintained fire system is as dangerous as having no system at all. Shri Balaji Fire Security Services offers comprehensive and non-comprehensive Annual Maintenance Contracts (AMC) to ensure your firefighting equipment is always operational.",
-      "Our qualified team conducts regular audits, functional testing, and emergency maintenance visits, keeping you fully compliant with local fire department NOC audits and national safety guidelines."
+      "Our qualified team conducts regular audits, functional testing, and emergency maintenance visits, keeping you fully compliant with local fire department safety audits and national safety guidelines."
     ],
     benefits: [
       "Guarantees the system operates reliably during an emergency.",
-      "Ensures continuous compliance with national fire codes and local NOC renewals.",
+      "Ensures continuous compliance with national fire codes and local safety renewals.",
       "Prevents expensive repair costs through timely inspection and lubrication.",
       "Priority 24/7 emergency repair support with dedicated technician response."
     ],
@@ -334,7 +334,7 @@ export const services: Service[] = [
     ],
     faqs: [
       { question: "What is the difference between comprehensive and non-comprehensive AMC?", answer: "A non-comprehensive AMC covers regular inspections, testing, and labor charges for minor adjustments, with any replacement parts billed separately. A comprehensive AMC covers both labor and the cost of replacing worn-out or damaged parts like valves, sensors, or hoses." },
-      { question: "Will you provide documentation for local Fire NOC renewal?", answer: "Yes, as part of our AMC, we provide comprehensive testing logs, inspection certificates, and structural compliance reports that are necessary for submitting local fire department NOC renewals." }
+      { question: "Will you provide documentation for local Fire NOC renewal?", answer: "Yes, as part of our AMC, we provide comprehensive testing logs, inspection certificates, and structural compliance reports that are necessary for submitting local fire department safety renewals." }
     ]
   },
   {
@@ -400,7 +400,7 @@ export const services: Service[] = [
       "Expert telephone guidance and fast on-site technician dispatch."
     ],
     features: [
-      "24/7 dedicated emergency response hotline (+91-9455472453)",
+      "24/7 dedicated emergency response hotline (+91-7007447595)",
       "On-call troubleshooting for fire alarm panels and false alarms",
       "Emergency valve replacement and leak isolation",
       "Urgent pressure recharging for fire pumps",
@@ -432,16 +432,16 @@ export const services: Service[] = [
   {
     slug: "fire-consultation",
     title: "Fire Safety Consultation",
-    shortDesc: "Expert guidance on National Building Code (NBC) compliance, fire layouts, and local NOC audits.",
+    shortDesc: "Expert guidance on National Building Code (NBC) compliance, fire layouts, and local safety audits.",
     iconName: "FileText",
     imageUrl: "/images/industries/government.png",
     overview: [
       "Navigating the complex maze of fire safety codes, local fire department regulations, and NBC requirements can be overwhelming. Shri Balaji Fire Security Services provides professional consultancy services for builders, architects, hotels, and factories.",
-      "We prepare fire layout drawings, conduct fire load calculations, design code-compliant layouts, and assist clients in obtaining Fire Safety Certificates / NOC approvals from the Varanasi fire department."
+      "We prepare fire layout drawings, conduct fire load calculations, design code-compliant layouts, and assist clients in obtaining Fire Safety Certificates / clearances from the Varanasi fire department."
     ],
     benefits: [
       "Ensures designs are 100% compliant before construction begins, saving cost.",
-      "Speeds up the process of local fire department NOC approvals.",
+      "Speeds up the process of local fire department clearances.",
       "Optimizes fire protection system sizing, avoiding over-design or under-design.",
       "Identifies potential safety loopholes and offers cost-effective solutions."
     ],
@@ -449,7 +449,7 @@ export const services: Service[] = [
       "NBC (National Building Code of India) Part 4 compliance checks",
       "Preparation of Fire Layout Drawings and Evacuation Plans",
       "Fire Load calculations and zoning analysis",
-      "Assistance in preparing documents for Fire NOC / Fire Safety Certificate",
+      "Assistance in preparing documents for Fire Safety Certificate",
       "Training seminars and mock fire drill layouts"
     ],
     applications: [
@@ -471,8 +471,8 @@ export const services: Service[] = [
       { name: "Compliance Database", desc: "Up-to-date repository of national building codes and local UP state fire regulations." }
     ],
     faqs: [
-      { question: "What is a Fire NOC and is it mandatory?", answer: "A Fire No Objection Certificate (NOC) is a document issued by the local Fire Services department certifying that a building is equipped with adequate fire safety and control systems as per the NBC. It is mandatory for commercial buildings, educational institutions, hospitals, hotels, and high-rise apartments." },
-      { question: "Can you help renew an expired Fire NOC?", answer: "Yes. We inspect your existing fire safety systems, perform required testing and servicing, prepare the documentation, and assist you through the local inspection and NOC renewal process." }
+      { question: "What is a Fire Safety Certificate and is it mandatory?", answer: "A Fire Safety Certificate is a document issued by the local Fire Services department certifying that a building is equipped with adequate fire safety and control systems as per the NBC. It is mandatory for commercial buildings, educational institutions, hospitals, hotels, and high-rise apartments." },
+      { question: "Can you help renew an expired Fire Safety Certificate?", answer: "Yes. We inspect your existing fire safety systems, perform required testing and servicing, prepare the documentation, and assist you through the local inspection and renewal process." }
     ]
   },
   {

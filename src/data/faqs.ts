@@ -11,7 +11,7 @@ export const faqs: FAQItem[] = [
     id: 1,
     category: "General",
     question: "What services does Shri Balaji Fire Security Services provide?",
-    answer: "We provide complete, end-to-end fire safety solutions including supply, installation, testing, commissioning, refilling, AMC (Annual Maintenance Contracts), and servicing of fire extinguishers, fire alarm systems, hydrants, automatic sprinkler systems, clean-agent gas suppression systems, and kitchen hood suppression. We also provide professional safety consultation, fire NOC documentation assistance, and safety audits."
+    answer: "We provide complete, end-to-end fire safety solutions including supply, installation, testing, commissioning, refilling, AMC (Annual Maintenance Contracts), and servicing of fire extinguishers, fire alarm systems, hydrants, automatic sprinkler systems, clean-agent gas suppression systems, and kitchen hood suppression. We also provide professional safety consultation, fire safety documentation assistance, and safety audits."
   },
   {
     id: 2,
@@ -23,7 +23,7 @@ export const faqs: FAQItem[] = [
     id: 3,
     category: "General",
     question: "Are your installations code-compliant?",
-    answer: "Yes, absolutely. All our system designs, installations, and maintenance routines follow the National Building Code of India (NBC Part 4), Bureau of Indian Standards (IS codes), and local Uttar Pradesh state fire department regulations required for obtaining and renewing Fire NOCs."
+    answer: "Yes, absolutely. All our system designs, installations, and maintenance routines follow the National Building Code of India (NBC Part 4), Bureau of Indian Standards (IS codes), and local Uttar Pradesh state fire department regulations required for obtaining and renewing Fire Safety Certificates."
   },
   {
     id: 4,
@@ -65,7 +65,7 @@ export const faqs: FAQItem[] = [
     id: 10,
     category: "General",
     question: "Do you provide documentation for compliance?",
-    answer: "Yes, we provide official pressure test reports, system commissioning certificates, material check lists, and annual service logs required by insurance firms and government inspectors for Fire NOC clearances."
+    answer: "Yes, we provide official pressure test reports, system commissioning certificates, material check lists, and annual service logs required by insurance firms and government inspectors for Fire Safety clearances."
   },
   // Fire Extinguishers
   {
@@ -188,7 +188,7 @@ export const faqs: FAQItem[] = [
     id: 30,
     category: "AMC & Maintenance",
     question: "Why do I need an AMC?",
-    answer: "Fire systems lie dormant until an emergency. Regular AMC audits ensure pumps don't seize, alarm batteries don't fail, and pipes haven't leaked, keeping the system fully operational and compliant for NOC audits."
+    answer: "Fire systems lie dormant until an emergency. Regular AMC audits ensure pumps don't seize, alarm batteries don't fail, and pipes haven't leaked, keeping the system fully operational and compliant for safety audits."
   },
   {
     id: 31,
@@ -267,8 +267,8 @@ export const faqs: FAQItem[] = [
   {
     id: 43,
     category: "Compliance & Safety",
-    question: "Can you help with Fire NOC?",
-    answer: "Yes. We help clients obtain and renew their Fire Safety Certificate (NOC) by designing compliant systems, preparing layout maps, executing pressure tests, and facilitating inspector reviews."
+    question: "Can you help with Fire Safety Certificates?",
+    answer: "Yes. We help clients obtain and renew their Fire Safety Certificate by designing compliant systems, preparing layout maps, executing pressure tests, and facilitating inspector reviews."
   },
   {
     id: 44,
@@ -299,7 +299,7 @@ export const faqs: FAQItem[] = [
     id: 48,
     category: "Support & Contact",
     question: "How can I contact you in an emergency?",
-    answer: "In a fire safety emergency or system failure, call our 24/7 priority emergency line at +91-9455472453 immediately for advice and technician dispatch."
+    answer: "In a fire safety emergency or system failure, call our 24/7 priority emergency line at +91-7007447595 immediately for advice and technician dispatch."
   },
   {
     id: 49,

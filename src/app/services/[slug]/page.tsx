@@ -107,7 +107,7 @@ export default function ServiceDetailPage({ params }: PageProps) {
                 Request Service Quote
               </Link>
               <a
-                href="tel:+919455472453"
+                href="tel:+917007447595"
                 className="w-full sm:w-auto flex items-center justify-center gap-2 bg-charcoal-950 border border-charcoal-800 hover:border-primary px-6 py-3 rounded-lg text-white font-bold text-xs uppercase tracking-wider transition-colors"
               >
                 <Phone className="w-4 h-4 text-primary fill-primary" />

@@ -33,7 +33,7 @@ export default function BlogHubPage() {
           </h1>
           <div className="h-1 w-20 bg-primary mx-auto rounded" />
           <p className="text-xs sm:text-sm text-gray-400 max-w-xl mx-auto leading-relaxed">
-            Read professional insights, fire safety checklists, local compliance guides, and guidelines on obtaining Varanasi Fire NOC approvals.
+            Read professional insights, fire safety checklists, local compliance guides, and guidelines on Varanasi fire safety compliance.
           </p>
         </div>
       </section>

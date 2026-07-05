@@ -162,11 +162,11 @@ export default function FAQsPage() {
               Request Quote Callback
             </Link>
             <a
-              href="tel:+919455472453"
+              href="tel:+917007447595"
               className="w-full sm:w-auto flex items-center justify-center gap-2 bg-charcoal-950/80 hover:bg-charcoal-950 px-6 py-2.5 rounded-lg text-white font-bold text-xs uppercase tracking-wider transition-colors border border-white/10"
             >
               <Phone className="w-4 h-4 text-primary fill-primary" />
-              <span>Call +91 94554 72453</span>
+              <span>Call +91 70074 47595</span>
             </a>
           </div>
         </div>
