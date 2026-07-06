@@ -25,7 +25,7 @@ export default function Footer() {
             Varanasi's premier B2B fire protection contractor. Delivering certified engineering, installation, refilling, and AMC services across Uttar Pradesh. Your compliance is our safety guarantee.
           </p>
           <div className="flex flex-wrap items-center gap-3 pt-2">
-            <a href="#" className="p-2 rounded bg-charcoal-800 hover:bg-primary hover:text-white transition-colors flex items-center justify-center" aria-label="Facebook">
+            <a href="https://www.facebook.com/share/1EPXX39zPy/" target="_blank" rel="noopener noreferrer" className="p-2 rounded bg-charcoal-800 hover:bg-primary hover:text-white transition-colors flex items-center justify-center" aria-label="Facebook">
               <svg className="w-4 h-4 fill-current" viewBox="0 0 24 24">
                 <path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z" />
               </svg>
