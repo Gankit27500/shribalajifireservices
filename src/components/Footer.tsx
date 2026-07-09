@@ -18,7 +18,7 @@ export default function Footer() {
             <img
               src="/images/logo.png"
               alt="Shri Balaji Fire Security Services Logo"
-              className="h-14 w-auto object-contain hover:scale-102 transition-all"
+              className="h-14 w-auto object-contain bg-white rounded-lg p-1 border border-charcoal-800 hover:scale-102 transition-all"
             />
           </Link>
           <p className="text-xs text-gray-400 leading-relaxed">

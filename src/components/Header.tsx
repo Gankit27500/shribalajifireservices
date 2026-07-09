@@ -72,7 +72,7 @@ export default function Header() {
               <img
                 src="/images/logo.png"
                 alt="Shri Balaji Fire Security Services Logo"
-                className="h-12 sm:h-16 w-auto object-contain hover:scale-102 transition-all"
+                className="h-10 sm:h-14 w-auto object-contain bg-white rounded-lg p-1 border border-charcoal-700 hover:scale-102 transition-all"
               />
             </Link>
 
