@@ -70,9 +70,9 @@ export default function Header() {
             {/* Logo Section */}
             <Link href="/" className="flex items-center group shrink-0 pr-4">
               <img
-                src="/images/logo.jpg"
+                src="/images/logo.png"
                 alt="Shri Balaji Fire Security Services Logo"
-                className="h-10 sm:h-12 w-auto object-contain bg-white rounded-lg p-0.5 border border-charcoal-700 hover:scale-102 transition-all"
+                className="h-12 sm:h-16 w-auto object-contain hover:scale-102 transition-all"
               />
             </Link>
 
