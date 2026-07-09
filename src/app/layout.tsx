@@ -35,11 +35,20 @@ export const metadata: Metadata = {
     siteName: "Shri Balaji Fire Security Services",
     type: "website",
     locale: "en_IN",
+    images: [
+      {
+        url: "/images/logo.png",
+        width: 1024,
+        height: 1024,
+        alt: "Shri Balaji Fire Security Services Logo",
+      }
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Fire Safety & Protection Services in Varanasi",
     description: "Supply, installation, refilling, and AMC for fire safety systems in Varanasi and Purvanchal.",
+    images: ["/images/logo.png"],
   }
 };
 
