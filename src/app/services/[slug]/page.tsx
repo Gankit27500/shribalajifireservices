@@ -197,9 +197,18 @@ export default function ServiceDetailPage({ params }: PageProps) {
             </h2>
             <div className="space-y-3">
               {service.equipment.map((eq, i) => (
-                <div key={i} className="p-4 bg-charcoal-900 border border-charcoal-850 rounded-xl space-y-1">
-                  <h4 className="font-bold text-xs text-white uppercase tracking-wider">{eq.name}</h4>
-                  <p className="text-[11px] text-gray-400 leading-relaxed">{eq.desc}</p>
+                <div key={i} className="p-4 bg-charcoal-900 border border-charcoal-850 rounded-xl flex gap-4 items-center sm:items-start">
+                  {eq.imageUrl && (
+                    <img
+                      src={eq.imageUrl}
+                      alt={eq.name}
+                      className="w-16 h-16 object-contain rounded-lg bg-white p-1 border border-charcoal-800 shrink-0"
+                    />
+                  )}
+                  <div className="space-y-1">
+                    <h4 className="font-bold text-xs text-white uppercase tracking-wider">{eq.name}</h4>
+                    <p className="text-[11px] text-gray-400 leading-relaxed">{eq.desc}</p>
+                  </div>
                 </div>
               ))}
             </div>

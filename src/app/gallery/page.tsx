@@ -6,7 +6,7 @@ import { Flame, X, Video, Image as ImageIcon, MapPin, ZoomIn } from "lucide-reac
 interface GalleryItem {
   id: number;
   title: string;
-  category: "Installation" | "Hydrant" | "Alarm" | "Sprinkler" | "Suppression" | "AMC" | "Team" | "Videos";
+  category: "Installation" | "Hydrant" | "Alarm" | "Sprinkler" | "Suppression" | "AMC" | "Team" | "Videos" | "Equipment";
   desc: string;
   location: string;
   imageUrl: string;
@@ -17,7 +17,7 @@ export default function GalleryPage() {
   const [activeTab, setActiveTab] = useState<string>("All");
   const [lightboxItem, setLightboxItem] = useState<GalleryItem | null>(null);
 
-  const tabs = ["All", "Installation", "Hydrant", "Alarm", "Sprinkler", "Suppression", "AMC", "Team", "Videos"];
+  const tabs = ["All", "Equipment", "Installation", "Hydrant", "Alarm", "Sprinkler", "Suppression", "AMC", "Team", "Videos"];
 
   const items: GalleryItem[] = [
     { id: 1, title: "Fire Hydrant Pipeline Welding", category: "Hydrant", desc: "Heavy industrial steel piping line main installation.", location: "Jhansi Cement Plant", imageUrl: "/images/projects/ultratech-cement.jpg" },
@@ -31,7 +31,19 @@ export default function GalleryPage() {
     { id: 9, title: "ABC Extinguisher Refilling Row", category: "AMC", desc: "Refilled dry chemical cylinders ready for dispatch.", location: "Refill Facility, Varanasi", imageUrl: "/images/industrial.png" },
     { id: 10, title: "Kitchen Chemical Agent Nozzle", category: "Suppression", desc: "Specialized hood suppression nozzle.", location: "Luxury Hotel Kitchen", imageUrl: "/images/projects/taj-ganges.jpg" },
     { id: 11, title: "Safety Evacuation Signs Layout", category: "Installation", desc: "Photoluminescent exit route indicators.", location: "Sunbeam School, Varanasi", imageUrl: "/images/projects/sunbeam-school.jpg" },
-    { id: 12, title: "Beam Detector Alignment", category: "Alarm", desc: "Aligning laser beam smoke sensors.", location: "Industrial Warehouse", imageUrl: "/images/projects/sunbeam-school.jpg" }
+    { id: 12, title: "Beam Detector Alignment", category: "Alarm", desc: "Aligning laser beam smoke sensors.", location: "Industrial Warehouse", imageUrl: "/images/projects/sunbeam-school.jpg" },
+    { id: 13, title: "Fire Extinguisher Ball", category: "Equipment", desc: "Auto-activating fire extinguisher ball for kitchens & electrical panels.", location: "Product Showcase", imageUrl: "/images/equipment/fire_extinguisher_ball.png" },
+    { id: 14, title: "Gas Fire Suppression System", category: "Equipment", desc: "Clean agent fire suppression gas cylinders for server rooms.", location: "Product Showcase", imageUrl: "/images/equipment/fire_suppression.png" },
+    { id: 15, title: "Fire Jockey Pump Set", category: "Equipment", desc: "Heavy-duty jockey pump to maintain grid pipeline pressure.", location: "Product Showcase", imageUrl: "/images/equipment/jockey_pump.png" },
+    { id: 16, title: "Main Fire Pump Set", category: "Equipment", desc: "High-LPM main electric fire hydrant booster pump.", location: "Product Showcase", imageUrl: "/images/equipment/main_pump.png" },
+    { id: 17, title: "RRL Hose Pipe Set", category: "Equipment", desc: "Reinforced rubber-lined (RRL) lay-flat fire hose with coupling.", location: "Product Showcase", imageUrl: "/images/equipment/rrl_hose_pipe.png" },
+    { id: 18, title: "Automatic Sprinkler Head", category: "Equipment", desc: "Glass bulb automatic fire sprinkler head (68°C rating).", location: "Product Showcase", imageUrl: "/images/equipment/sprinkler.png" },
+    { id: 19, title: "Two-Way Fire Draught Inlet", category: "Equipment", desc: "Standard 2-way breeching inlet connection for fire fighters.", location: "Product Showcase", imageUrl: "/images/equipment/two_way_inlet.png" },
+    { id: 20, title: "Four-Way Fire Draught Inlet", category: "Equipment", desc: "Heavy-duty 4-way breeching inlet connection for external pumps.", location: "Product Showcase", imageUrl: "/images/equipment/four_way_inlet.png" },
+    { id: 21, title: "Manual Call Point (MCP)", category: "Equipment", desc: "Break-glass manual fire alert trigger box.", location: "Product Showcase", imageUrl: "/images/equipment/manual_call_point.png" },
+    { id: 22, title: "Fire Alarm Control Panel (FACP)", category: "Equipment", desc: "Addressable micro-controller fire alarm panel board.", location: "Product Showcase", imageUrl: "/images/equipment/facp_panel.png" },
+    { id: 23, title: "Fire Hose Reel Drum Set", category: "Equipment", desc: "Wall-mounted swinging fire hose reel drum with rubber hose.", location: "Product Showcase", imageUrl: "/images/equipment/hose_reel.png" },
+    { id: 24, title: "Response Indicator Alert", category: "Equipment", desc: "Visual LED indicator to detect activated ceiling detectors.", location: "Product Showcase", imageUrl: "/images/equipment/response_indicator.png" }
   ];
 
   const filteredItems = items.filter((item) => {

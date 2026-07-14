@@ -8,7 +8,7 @@ export interface Service {
   features: string[];
   applications: string[];
   process: string[];
-  equipment: { name: string; desc: string }[];
+  equipment: { name: string; desc: string; imageUrl?: string }[];
   faqs: { question: string; answer: string }[];
   imageUrl: string;
 }
@@ -54,7 +54,8 @@ export const services: Service[] = [
       { name: "ABC Dry Powder Extinguisher", desc: "Multi-purpose extinguisher for Class A, B, and C fires. Sizes: 2kg, 4kg, 6kg, 9kg." },
       { name: "CO2 Extinguisher", desc: "Ideal for electrical fires. Non-conductive, clean agent. Sizes: 2kg, 3kg, 4.5kg, 22.5kg wheel-mounted." },
       { name: "Clean Agent Extinguisher", desc: "Zero residue, highly effective on electronics. Sizes: 2kg, 4kg, 6kg." },
-      { name: "Water Co2 / Foam Extinguisher", desc: "Best for wood/paper (foam for flammable liquids). Sizes: 9L, 50L." }
+      { name: "Water Co2 / Foam Extinguisher", desc: "Best for wood/paper (foam for flammable liquids). Sizes: 9L, 50L." },
+      { name: "Fire Extinguisher Ball", desc: "Auto-activating fire extinguisher ball for kitchens & electrical panels.", imageUrl: "/images/equipment/fire_extinguisher_ball.png" }
     ],
     faqs: [
       { question: "What is the life of a fire extinguisher?", answer: "The lifespan depends on the type. Dry powder and clean agent units typically have a shell life of 5-10 years if regularly inspected and refilled, while CO2 cylinders can last longer subject to periodic hydraulic pressure tests every 5 years." },
@@ -144,9 +145,10 @@ export const services: Service[] = [
       "Commissioning, testing, and handover with full documentation"
     ],
     equipment: [
-      { name: "Addressable Fire Alarm Panel", desc: "Microprocessor-based control panel communicating with hundreds of individual devices." },
+      { name: "Addressable Fire Alarm Panel (FACP)", desc: "Microprocessor-based control panel communicating with hundreds of individual devices.", imageUrl: "/images/equipment/facp_panel.png" },
       { name: "Smoke & Heat Detectors", desc: "Photoelectric smoke detectors and thermal heat sensors for reliable flame detection." },
-      { name: "Manual Call Point", desc: "Emergency break-glass call points to manually trigger the alarm system." }
+      { name: "Manual Call Point", desc: "Emergency break-glass call points to manually trigger the alarm system.", imageUrl: "/images/equipment/manual_call_point.png" },
+      { name: "Response Indicator", desc: "LED indicator showing alarm activation status inside false ceilings or closed rooms.", imageUrl: "/images/equipment/response_indicator.png" }
     ],
     faqs: [
       { question: "What is the difference between conventional and addressable alarm systems?", answer: "Conventional systems divide the building into general zones; the panel shows which zone has a fire. Addressable systems assign a unique ID to every single detector, pinpointing the exact device and room where smoke or heat is detected, making it ideal for larger facilities." },
@@ -190,9 +192,12 @@ export const services: Service[] = [
       "Hydro-testing at high pressure (typically 1.5 times working pressure) and commissioning"
     ],
     equipment: [
-      { name: "Main Fire Pump Set", desc: "Centrifugal horizontal split-case pump driven by electric motor (e.g., 75 HP, 2280 LPM)." },
-      { name: "Standby Diesel Pump", desc: "Heavy-duty diesel engine-powered pump to operate in power blackouts." },
-      { name: "Hose Reel & Cabinet", desc: "Weatherproof MS cabinets housing RRL hoses, branch pipes, and swinging hose reels." }
+      { name: "Main Fire Pump Set", desc: "Centrifugal horizontal split-case pump driven by electric motor (e.g., 75 HP, 2280 LPM).", imageUrl: "/images/equipment/main_pump.png" },
+      { name: "Fire Jockey Pump Set", desc: "Heavy-duty jockey pump to maintain grid pipeline pressure during minor leaks.", imageUrl: "/images/equipment/jockey_pump.png" },
+      { name: "RRL Hose Pipe Set", desc: "Reinforced rubber-lined lay-flat fire hose with instantaneous coupling.", imageUrl: "/images/equipment/rrl_hose_pipe.png" },
+      { name: "Fire Hose Reel Drum", desc: "Wall-mounted swinging hose reel drum with flexible rubber hose.", imageUrl: "/images/equipment/hose_reel.png" },
+      { name: "Two-Way Fire Inlet", desc: "Standard 2-way breeching inlet connection for fire fighters.", imageUrl: "/images/equipment/two_way_inlet.png" },
+      { name: "Four-Way Fire Inlet", desc: "Heavy-duty 4-way breeching inlet connection for high-capacity external pumping.", imageUrl: "/images/equipment/four_way_inlet.png" }
     ],
     faqs: [
       { question: "What pressure should a fire hydrant system maintain?", answer: "Under normal standby conditions, the hydrant ring main pressure is maintained around 7-8 kg/cm² by a jockey pump. During operation, the main pump cuts in automatically to maintain 5-7 kg/cm² pressure at the highest landing valve." },
@@ -236,7 +241,7 @@ export const services: Service[] = [
       "Pneumatic or hydrostatic testing, flushing, and commissioning"
     ],
     equipment: [
-      { name: "Glass Bulb Sprinkler Head", desc: "Quartzoid glass bulb containing liquid that expands under heat, shattering at 68°C to release water." },
+      { name: "Glass Bulb Sprinkler Head", desc: "Quartzoid glass bulb containing liquid that expands under heat, shattering at 68°C to release water.", imageUrl: "/images/equipment/sprinkler.png" },
       { name: "Alarm Valve", desc: "Water flow alarm valve that sounds a mechanical gong when a sprinkler activates." },
       { name: "Deluge Valve", desc: "Quick-opening valve for dry/deluge systems in hazardous areas." }
     ],
@@ -282,7 +287,7 @@ export const services: Service[] = [
       "Door fan testing to verify room airtightness, and commissioning"
     ],
     equipment: [
-      { name: "Gas Storage Cylinders", desc: "High-pressure steel cylinders storing FM-200, Novec 1230, or CO2 agent." },
+      { name: "Gas Storage Cylinders", desc: "High-pressure steel cylinders storing FM-200, Novec 1230, or CO2 agent.", imageUrl: "/images/equipment/fire_suppression.png" },
       { name: "Gas Release Control Panel", desc: "Dedicated panel that coordinates cross-zoned smoke detection before releasing gas." },
       { name: "Wet Chemical Agent", desc: "Potassium salt-based liquid agent for suppressing grease fires in kitchens." }
     ],
