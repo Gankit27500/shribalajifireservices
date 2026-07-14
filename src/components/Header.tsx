@@ -49,6 +49,7 @@ export default function Header() {
   const navLinks = [
     { name: "Home", path: "/" },
     { name: "About", path: "/about" },
+    { name: "Equipment", path: "/equipment" },
     { name: "Projects", path: "/projects" },
     { name: "Gallery", path: "/gallery" },
     { name: "Blog", path: "/blog" },
@@ -77,7 +78,7 @@ export default function Header() {
             </Link>
 
             {/* Desktop Navigation Links */}
-            <nav className="hidden lg:flex items-center gap-8 text-sm font-medium text-gray-300">
+            <nav className="hidden lg:flex items-center gap-4 xl:gap-6.5 text-[13px] font-medium text-gray-300">
               {/* Home */}
               <Link
                 href="/"
@@ -106,6 +107,16 @@ export default function Header() {
                 }`}
               >
                 Services
+              </Link>
+
+              {/* Equipment Link */}
+              <Link
+                href="/equipment"
+                className={`hover:text-primary transition-colors py-2 relative after:absolute after:bottom-0 after:left-0 after:w-full after:h-[2px] after:bg-primary after:transform after:scale-x-0 after:origin-left hover:after:scale-x-100 after:transition-transform after:duration-300 ${
+                  pathname === "/equipment" ? "text-primary font-semibold after:scale-x-100" : ""
+                }`}
+              >
+                Equipment
               </Link>
 
               {/* Industries Link */}

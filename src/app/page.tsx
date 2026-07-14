@@ -27,6 +27,7 @@ import {
 import { services } from "@/data/services";
 import { industries } from "@/data/industries";
 import { projects } from "@/data/projects";
+import { equipmentList } from "@/data/equipment";
 
 // Simple mapping to render correct icons dynamically
 const iconMap: Record<string, React.ComponentType<any>> = {
@@ -499,6 +500,70 @@ export default function Home() {
             className="inline-flex items-center gap-2 bg-charcoal-900 border border-charcoal-800 hover:border-primary px-6 py-3 rounded-lg text-white font-bold text-xs transition-colors"
           >
             <span>View All Projects Portfolio</span>
+            <ArrowRight className="w-4 h-4" />
+          </Link>
+        </div>
+      </section>
+
+      {/* 7.5 PREMIUM EQUIPMENT PREVIEW SECTION */}
+      <section className="py-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto w-full border-t border-charcoal-850">
+        <div className="text-center max-w-3xl mx-auto space-y-3 mb-12">
+          <span className="text-xs font-bold text-primary uppercase tracking-widest">Hardware Catalog</span>
+          <h2 className="text-3xl sm:text-4xl font-bold text-white tracking-tight">
+            Premium Fire Safety Hardware We Deploy
+          </h2>
+          <div className="h-1 w-20 bg-primary mx-auto rounded" />
+          <p className="text-sm text-gray-400 leading-relaxed">
+            We source and install certified, ISI-marked, and state-CFO approved hardware to ensure absolute safety compliance for commercial and industrial zones.
+          </p>
+        </div>
+
+        {/* Equipment Preview Cards */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          {equipmentList.slice(0, 4).map((item) => (
+            <div
+              key={item.slug}
+              className="group bg-charcoal-900 border border-charcoal-850 rounded-xl overflow-hidden shadow-xl flex flex-col justify-between hover:border-primary/45 hover:-translate-y-0.5 transition-all duration-300"
+            >
+              {/* Product Image Cover */}
+              <div className="relative h-40 bg-white p-4 flex items-center justify-center border-b border-charcoal-850 select-none">
+                <img
+                  src={item.imageUrl}
+                  alt={item.title}
+                  className="max-h-full max-w-full object-contain group-hover:scale-105 transition-transform duration-300"
+                />
+                
+                {/* Category Badge */}
+                <div className="absolute top-2 left-2 bg-charcoal-950/80 text-[7px] font-bold text-accent px-2 py-0.5 border border-charcoal-800 rounded uppercase tracking-wider">
+                  {item.category}
+                </div>
+              </div>
+
+              {/* Text Info */}
+              <div className="p-4 flex-1 flex flex-col justify-between space-y-3">
+                <div className="space-y-1">
+                  <h3 className="font-heading text-xs font-bold text-white uppercase tracking-wider group-hover:text-primary transition-colors">
+                    {item.title}
+                  </h3>
+                  <p className="text-[10px] text-gray-400 leading-relaxed line-clamp-3">
+                    {item.desc}
+                  </p>
+                </div>
+
+                <div className="pt-2.5 border-t border-charcoal-850 text-[9px] text-gray-500 font-semibold truncate">
+                  {item.spec}
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+
+        <div className="text-center mt-10">
+          <Link
+            href="/equipment"
+            className="inline-flex items-center gap-2 bg-charcoal-900 border border-charcoal-800 hover:border-primary px-6 py-3 rounded-lg text-white font-bold text-xs transition-colors"
+          >
+            <span>Explore All 12 Equipment Catalog</span>
             <ArrowRight className="w-4 h-4" />
           </Link>
         </div>

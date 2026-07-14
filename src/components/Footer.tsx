@@ -152,6 +152,9 @@ export default function Footer() {
             &copy; {currentYear} Shri Balaji Fire Security Services. All Rights Reserved.
           </div>
           <div className="flex gap-4">
+            <Link href="/equipment" className="hover:text-white transition-colors">
+              Equipment Catalog
+            </Link>
             <Link href="/privacy-policy" className="hover:text-white transition-colors">
               Privacy Policy
             </Link>
