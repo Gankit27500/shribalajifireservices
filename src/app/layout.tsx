@@ -5,6 +5,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import MobileCTA from "@/components/MobileCTA";
 import CustomCursor from "@/components/CustomCursor";
+import WhatsAppButton from "@/components/WhatsAppButton";
 
 const poppins = Poppins({
   variable: "--font-poppins",
@@ -79,6 +80,9 @@ export default function RootLayout({
         
         {/* Persistent bottom call/WhatsApp bar for mobile screens */}
         <MobileCTA />
+
+        {/* Floating WhatsApp quick support button */}
+        <WhatsAppButton />
       </body>
     </html>
   );
