@@ -17,6 +17,14 @@ export const equipmentList: EquipmentItem[] = [
     imageUrl: "/images/equipment/fire_extinguisher_ball.png"
   },
   {
+    slug: "fire-extinguisher",
+    title: "Fire Extinguisher",
+    category: "Extinguishers",
+    desc: "Standard portable fire extinguisher cylinders filled with ABC dry powder, CO2, water, or foam agents for instant fire response.",
+    spec: "IS 15683 / Capacity: 2kg to 9kg / ABC, CO2, Foam, Water",
+    imageUrl: "/images/equipment/fire_extinguisher.png"
+  },
+  {
     slug: "fire-suppression-cylinder",
     title: "Gas Fire Suppression Cylinder",
     category: "Suppression",
@@ -103,5 +111,125 @@ export const equipmentList: EquipmentItem[] = [
     desc: "Ceiling-mounted remote visual LED indicator displaying detector triggers inside closed server racks, cabins, or false ceilings.",
     spec: "Operating Voltage: 24V DC / Dual Red LEDs / ABS fire-retardant body",
     imageUrl: "/images/equipment/response_indicator.png"
+  },
+  {
+    slug: "hydrant-landing-valve",
+    title: "Fire Hydrant Landing Valve",
+    category: "Hydrants",
+    desc: "Standard gunmetal single outlet landing valve installed in riser mains to control manual water discharge during firefighting.",
+    spec: "IS 5290 Type-A / Gunmetal / Outlet: 63mm female instantaneous / Test Pressure: 21 kg/cm²",
+    imageUrl: "/images/equipment/hydrant_valve.png"
+  },
+  {
+    slug: "fire-detection-system",
+    title: "Fire Detection System Console",
+    category: "Alarms",
+    desc: "Master graphic indicator and addressable detection system loop console for real-time sensor status tracking.",
+    spec: "IS 2189 / Dynamic monitoring console / Multi-zone capacity",
+    imageUrl: "/images/equipment/detection_system.png"
+  },
+  {
+    slug: "smoke-detector",
+    title: "Optical Smoke Detector",
+    category: "Alarms",
+    desc: "Addressable photoelectric smoke detector designed to sense smoldering fires and trigger warning signals to the FACP.",
+    spec: "IS 11360 / Coverage: 60 m² / Operating Voltage: 24V DC / Dual LED",
+    imageUrl: "/images/equipment/smoke_detector.png"
+  },
+  {
+    slug: "heat-detector",
+    title: "Rate of Rise Heat Detector",
+    category: "Alarms",
+    desc: "Dual thermistor rate-of-rise and fixed temperature heat detector for areas with high ambient dust or smoke (like kitchens/boiler rooms).",
+    spec: "IS 2175 / Fixed trigger: 57°C / Rate trigger: 8.3°C/min / 24V DC",
+    imageUrl: "/images/equipment/heat_detector.png"
+  },
+  {
+    slug: "hooter-siren",
+    title: "Electronic Hooter / Siren",
+    category: "Alarms",
+    desc: "Wall-mounted electronic sounder hooter with flash strobe lights to alert occupants of fire emergencies.",
+    spec: "Sound output: 90-100 dB / Strobe flashing: 1Hz / Voltage: 24V DC",
+    imageUrl: "/images/equipment/hooter_siren.png"
+  },
+  {
+    slug: "hose-box",
+    title: "Double-Hose Cabinet Box",
+    category: "Hydrants",
+    desc: "Weatherproof wall-mounted MS cabinet box designed to store two standard 15m RRL hoses and branch pipes next to landing valves.",
+    spec: "MS sheet metal / Color: Fire Red / Dimensions: 750x600x250mm / Glass front window",
+    imageUrl: "/images/equipment/hose_box.png"
+  },
+  {
+    slug: "branch-pipe",
+    title: "Hydrant Hose Branch Pipe",
+    category: "Hydrants",
+    desc: "Interlocking gunmetal or stainless steel branch pipe that connects hose couplings to release jet streams at fires.",
+    spec: "IS 903 / Outlet size: 20mm / Inlet: 63mm instantaneous male / Stainless Steel & Gunmetal",
+    imageUrl: "/images/equipment/branch_pipe.png"
+  },
+  {
+    slug: "nozzle",
+    title: "Triple-Purpose Fog Nozzle",
+    category: "Hydrants",
+    desc: "Adjustable flow nozzle allowing firefighters to select between jet, fog, and spray modes for gas dilution or direct attack.",
+    spec: "Outlet size: 12mm to 20mm / Flow select: Jet, Spray, Shut-off / Brass chrome-plated",
+    imageUrl: "/images/equipment/nozzle.png"
+  },
+  {
+    slug: "flow-switch",
+    title: "Water Flow Switch Indicator",
+    category: "Sprinklers",
+    desc: "Paddle-type water flow detector installed in sprinkler lines to trigger electrical alarms when water flows through pipeline grids.",
+    spec: "Operating pressure: 17.2 Bar / Switch: SPDT contact rating / NEMA 4 rated / UL Listed",
+    imageUrl: "/images/equipment/flow_switch.png"
+  },
+  {
+    slug: "butterfly-valve",
+    title: "Grooved Butterfly Valve",
+    category: "Hydrants",
+    desc: "Supervised control gear valve used to isolate flow sections in wet hydrant risers and automatic sprinkler lines.",
+    spec: "Class: PN16 / Stem: SS410 / Gear operated with tamper switch monitoring / UL Listed",
+    imageUrl: "/images/equipment/butterfly_valve.png"
+  },
+  {
+    slug: "nrv-valve",
+    title: "Swing Non-Return Valve (NRV)",
+    category: "Hydrants",
+    desc: "High-durability check valve preventing backflow of pressurized water into pumps or municipal supply lines.",
+    spec: "PN16 / Flange drilling: Table E/F / Cast Iron / Swing check mechanism",
+    imageUrl: "/images/equipment/nrv_valve.png"
+  },
+  {
+    slug: "fire-door",
+    title: "Metal Fire Rated Door",
+    category: "Suppression",
+    desc: "Heavy-duty galvanized steel door filled with insulation to restrict fire and heat spread across rooms and corridors.",
+    spec: "Fire Rating: 120 Mins / Sheet thickness: 1.2mm / Honeycomb core / CBRI certified",
+    imageUrl: "/images/equipment/fire_door.png"
+  },
+  {
+    slug: "exit-sign",
+    title: "LED Exit Sign Board",
+    category: "Alarms",
+    desc: "Slim-profile photoluminescent LED emergency exit indicator board displaying green evacuation routes.",
+    spec: "Backup battery: 3 Hours / Power: 3W LED / Dual-faced green stencil lettering",
+    imageUrl: "/images/equipment/exit_sign.png"
+  },
+  {
+    slug: "emergency-light",
+    title: "Dual-Beam Emergency Light",
+    category: "Alarms",
+    desc: "Auto-activating twin-spot emergency light that illuminates evacuation paths during main power blackouts.",
+    spec: "Coverage: 100 m² / Battery backup: 4 Hours / Twin 5W LED spots / Auto-charge switch",
+    imageUrl: "/images/equipment/emergency_light.png"
+  },
+  {
+    slug: "voice-evacuation",
+    title: "Voice Evacuation PA Rack",
+    category: "Alarms",
+    desc: "Integrated public address (PA) amplifier cabinet with microphone and speaker loop controls for emergency evacuation announcements.",
+    spec: "Power output: 240W to 500W / Audio input: Handheld paging mic / Multi-zone select console",
+    imageUrl: "/images/equipment/public_address.png"
   }
 ];
