@@ -563,7 +563,7 @@ export default function Home() {
             href="/equipment"
             className="inline-flex items-center gap-2 bg-charcoal-900 border border-charcoal-800 hover:border-primary px-6 py-3 rounded-lg text-white font-bold text-xs transition-colors"
           >
-            <span>Explore All 12 Equipment Catalog</span>
+            <span>Explore All 28 Equipment Catalog</span>
             <ArrowRight className="w-4 h-4" />
           </Link>
         </div>
